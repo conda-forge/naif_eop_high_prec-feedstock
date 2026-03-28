@@ -1,5 +1,5 @@
 {% set name = "naif_eop_high_prec" %}
-{% set version = "2026.3.27" %}
+{% set version = "2026.3.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/naif_eop_high_prec-{{ version }}.tar.gz
-  sha256: 2b9722086f349917df4fc706748b58f7ed9ed1f51947dcb74bfcc4b04d8c04f8
+  sha256: 16a6747d2187d54e62f5fc68edb48ca1ca0cb5ffa4bf62c3710280de388df6b2
 
 
 build:
